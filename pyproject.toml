@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fastapi-email"
+version = "0.0.1"
+description = "A FastAPI app to send e-mails"
+authors = ["Bruno Peixoto <brunolnetto@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytz = "^2024.1"
+tzlocal = "^5.2"
+
+[tool.poetry.group.dev.dependencies]
+uvicorn = "^0.30.3"
+fastapi = "^0.111.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
